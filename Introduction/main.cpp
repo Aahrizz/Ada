@@ -1,5 +1,15 @@
 #include <iostream>//Standard input/output library
+#include <string>
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello Jeffrey, we just wrote our first C++ code!";
+    string name;
+    cout << "Kindly fill in your name! ";
+    getline(cin, name);
+
+    cout << name << endl;
+
+    return 0;
+
 }

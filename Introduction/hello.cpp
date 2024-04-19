@@ -1,9 +1,31 @@
 #include <iostream>
+#include <sstream>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-    int a, b, c;
-    cout << "Why is there an errror that seem I cannot find!!" <<endl;
+    string input;
+    //char delimiter = ',';
+    cout << "Input your numbers to perform operations on them:";
+    getline(cin, input);
+
+    stringstream ss(input);
+    int sum = 0;
+    int num;
+
+
+    while (ss >> num) {
+        sum += num;
+        if (ss.peek() == ',') {
+            ss.ignore(); //skip comma
+        }
+    };
+
+    cout << "Sum: " << sum << endl;
+    return 0;
+
+
 
 }
