@@ -1,14 +1,9 @@
-
-#include <iostream> //input/output stream
+#include <iostream>
 using namespace std;
 
-//main function.Diversity among compilers
-int main() {
-    cout << "If Spock were doing this exercise, he might add to it s that it would display:"<< endl;
+int main()
+{
+    int a, b, c;
+    cout << "Why is there an errror that seem I cannot find!!" <<endl;
 
-    cin.get();
-
-    return 0;
-    
-} 
-
+}
