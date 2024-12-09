@@ -1,0 +1,12 @@
+// Example header program #1 from Chapter 7 of Absolute Beginner's 
+// Guide to C, 3rd Edition
+// File Chapter7ex1.h
+// If you have certain values that will not change (or only change 
+// rarely)
+// you can set them with #DEFINE statements (so you can change them 
+// as needed)
+// If you plan on using them in several programs, you can place them 
+// in a header file
+#define PI 3.142
+#define NUMBER 21
+#define RESULT "The answer to your question is:" 
