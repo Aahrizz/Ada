@@ -9,4 +9,3 @@
 // in a header file
 #define PI 3.142
 #define NUMBER 21
-#define RESULT "The answer to your question is:" 
